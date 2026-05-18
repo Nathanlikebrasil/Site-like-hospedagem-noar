@@ -1,0 +1,8 @@
+{
+  "name": "#6 Like - SITE COMPLETO (HOSTINGER)",
+  "description": "Publicar esse site. \n\nTudo completo (imagens, links, videos)",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
