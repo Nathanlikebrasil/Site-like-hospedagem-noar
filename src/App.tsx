@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import YouTubeSection from './components/YouTubeSection';
 import { Smartphone, Layout, Users, Star, BarChart3, Globe } from 'lucide-react';
 import { motion } from 'motion/react';
+import appLikeImage from './assets/images/regenerated_image_1779048187834.png';
 
 export default function App() {
   return (
@@ -130,7 +131,7 @@ export default function App() {
                     className="relative bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-100 flex items-center justify-center p-2 sm:p-0 transition-transform group-hover:scale-[1.01]"
                   >
                     <img 
-                      src="/src/assets/images/regenerated_image_1779048187834.png" 
+                      src={appLikeImage} 
                       alt="App Like Brasil" 
                       className="w-full h-auto max-w-full block"
                       referrerPolicy="no-referrer"

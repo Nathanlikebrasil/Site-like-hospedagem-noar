@@ -1,39 +1,45 @@
 import { motion } from 'motion/react';
+import imgOzonio from '../assets/images/regenerated_image_1779047157905.png';
+import imgCapilar from '../assets/images/regenerated_image_1779047156532.png';
+import imgPerfumaria from '../assets/images/regenerated_image_1779047155001.png';
+import imgSuplementos from '../assets/images/regenerated_image_1779047151354.png';
+import imgBodySplash from '../assets/images/regenerated_image_1779047149926.png';
+import imgLinhaCompleta from '../assets/images/regenerated_image_1779047147977.png';
 
 const products = [
   {
     category: 'Linha Ozônio',
-    image: '/src/assets/images/regenerated_image_1779047157905.png',
+    image: imgOzonio,
     description: 'Óleos ozonizados com intensa atividade antimicrobiana e regeneração tecidual.',
     brand: 'COSMÉTICOS LIKE'
   },
   {
     category: 'Cuidado Capilar',
-    image: '/src/assets/images/regenerated_image_1779047156532.png',
+    image: imgCapilar,
     description: 'Linha de shampoos, condicionadores e máscaras com tecnologia avançada.',
     brand: 'COSMÉTICOS LIKE'
   },
   {
     category: 'Perfumaria Fine',
-    image: '/src/assets/images/regenerated_image_1779047155001.png',
+    image: imgPerfumaria,
     description: 'Fragrâncias mais vendidas no mundo com tecnologia Biolike (Infravermelho Longo).',
     brand: 'LIKESENSE'
   },
   {
     category: 'Linha de Suplementos',
-    image: '/src/assets/images/regenerated_image_1779047151354.png',
+    image: imgSuplementos,
     description: 'Nutracêuticos de alta performance para saúde e bem-estar diário.',
     brand: 'NUTRITION LINE'
   },
   {
     category: 'Body Splash & Hidratação',
-    image: '/src/assets/images/regenerated_image_1779047149926.png',
+    image: imgBodySplash,
     description: 'Toque sedoso e pele perfumada com fragrâncias intensas.',
     brand: 'SOFT TOUCH'
   },
   {
     category: 'LINHA COMPLETA LIKE',
-    image: '/src/assets/images/regenerated_image_1779047147977.png',
+    image: imgLinhaCompleta,
     description: 'Linha completa de Perfumaria e Cosméticos',
     brand: 'ORIENTAL LINE'
   }

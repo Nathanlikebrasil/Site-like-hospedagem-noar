@@ -1,5 +1,6 @@
 import { Youtube, Play, Users, CheckCircle2 } from 'lucide-react';
 import { motion } from 'motion/react';
+import youtubeThumb from '../assets/images/regenerated_image_1779124319901.png';
 
 export default function YouTubeSection() {
   return (
@@ -88,7 +89,7 @@ export default function YouTubeSection() {
             <div className="relative aspect-video rounded-3xl overflow-hidden bg-gray-900 shadow-2xl border border-white/10 group">
               {/* YouTube Video Mockup Style Overlay */}
               <img 
-                src="/src/assets/images/regenerated_image_1779124319901.png" 
+                src={youtubeThumb} 
                 alt="Nathan Oliveira YouTube" 
                 className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
